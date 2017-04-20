@@ -1,12 +1,12 @@
-##wish-cache设计文档
+## wish-cache设计文档
 
 #### 设计初衷
 给java开发者一个简易使用redis的缓存工具包
-####设计描述
+#### 设计描述
 JRedis 是一个高性能的 Java 客户端，用来连接到 Redis 分布式哈希键-值数据库。提供同步和异步的连接。wish-cache就是基于JRedis 的一个封装
-####结构
+#### 结构
 
-####使用
+#### 使用
 1. 配置文件config.properties
  redis.url=redis链接信息
       * 思路：把redis连接信息，当成一种URL资源
