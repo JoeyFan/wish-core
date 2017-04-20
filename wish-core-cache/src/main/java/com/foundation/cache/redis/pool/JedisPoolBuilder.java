@@ -17,7 +17,8 @@ import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.Protocol;
 
 /**
- * Build JedisPool
+ * JedisPool构造类
+ * @fqh
  */
 public class JedisPoolBuilder {
 
